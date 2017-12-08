@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-wrapper {
+  margin-top: -32px;
+}
+
+.brand-logo {
+  color: #0732a2;
+  font-weight: bold;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #2d5be3;
+  box-shadow: 0 1px 0 0 #2d5be3;
+ }
+
+ h3 {
+   color: #0732a2;
+ }
+
+ .card {
+   display: flex;
+   align-items: center;
+   flex-flow: column;
+ }
