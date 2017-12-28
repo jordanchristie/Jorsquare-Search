@@ -9,6 +9,7 @@ export function fetchPlaces (city) {
       fetch(URL)
         .then(res => res.json())
         .then(places => dispatch(getPlaces(places)))
+        .catch(error => console.log('Please enter a valid city.'))
       
   }
 }
