@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -18,17 +19,26 @@ a {
   font-weight: bold;
 }
 
-.input-field input[type=text]:focus {
+.input-field input[type="text"]:focus {
   border-bottom: 1px solid #2d5be3;
   box-shadow: 0 1px 0 0 #2d5be3;
- }
+}
 
- h3 {
-   color: #0732a2;
- }
+h3 {
+  color: #0732a2;
+}
 
- .card {
-   display: flex;
-   align-items: center;
-   flex-flow: column;
- }
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 2rem;
+  width: 30%;
+  min-height: 500px;
+}
